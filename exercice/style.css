@@ -1,0 +1,675 @@
+@font-face {
+    font-family: Seshat;
+    src: url('assets/fonts/Seshat.otf');
+}
+ @font-face {
+     font-family: Poppins;
+     src: url('assets/fonts/POPPINS/POPPINS/Poppins-Regular.ttf');
+ }
+
+ @font-face {
+     font-family: Poppins-bold;
+     src: url('assets/fonts/POPPINS/POPPINS/Poppins-Bold.ttf');
+ }
+ @font-face {
+     font-family: Poppins-italic;
+     src: url('assets/fonts/POPPINS/POPPINS/Poppins-BoldItalic.ttf');
+ }
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    margin-left: 47px;
+    margin-top: 15px;
+}
+
+.start {
+    display:flex;
+}
+
+@media (max-width: 480px) {
+    .center {
+        display: flex;
+        align-items: center;
+    }
+}
+
+.list-item {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    list-style: none;
+}
+
+.list-item > li {
+    font-family: Poppins;
+    font-size: 1em;
+    margin-left: 110px;
+    margin-right: 100px;
+}
+
+.container {
+    max-width: 85em;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto
+}
+.actu-one {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 5em 0 0 0;
+}
+
+.image-one {
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.oval-1 {
+    position: absolute;
+    bottom: 78px;
+    right: 174px;
+    z-index: -1;
+}
+
+.image-actu-one {
+    width: 100%;
+    height: auto;
+}
+
+.titre-category {
+    background-color: #F2F2F2 ;
+    width: 224px;
+
+}
+
+.category {
+    font-family: Poppins-bold;
+    font-size: 14px;
+    margin: 7px 18px 7px 18px;
+}
+
+.date {
+    font-family: Poppins-bold;
+    font-size: 14px;
+    margin: 17px 0 0 0;
+}
+
+.titre-actu {
+    font-family: Sheshat;
+    font-size: 30px;
+    width: 672px;
+    margin: 14px 0 0 0;
+}
+
+.description-actu {
+    font-family: Poppins;
+    font-size: 14px;
+    color: #8D8D8D;
+    width: 672px;
+}
+
+.image-two {
+    display: flex;
+    flex-direction: column;
+}
+
+.actu-two {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 56px;
+}
+
+.image-actu-two {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.titre-category-two {
+    background-color: #F2F2F2 ;
+    width: 246px;
+
+}
+
+.description-actu-two {
+    font-family: Poppins;
+    font-size: 14px;
+    color: #8D8D8D;
+    width: 499px;
+}
+
+.image-three {
+    display: flex;
+    flex-direction: column;
+}
+
+.image-actu-three {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.description-actu-three {
+    font-family: Poppins;
+    font-size: 14px;
+    color: #8D8D8D;
+    width: 469px;
+}
+
+ /* CSS commun  */
+.titre-actu-two {
+    font-family: Sheshat;
+    font-size: 30px;
+    width: 540px;
+    margin: 14px 0 0 0;
+}
+
+.description-actu-two {
+    font-family: Poppins;
+    font-size: 14px;
+    color: #8D8D8D;
+    width: 499px;
+}
+
+/* president d'honneur */
+
+.president {
+    background-color: #FFB563;
+    width: 100%;
+    height: auto;
+
+}
+
+.president-honneur {
+    padding-top: 70px;
+}
+
+.titre-president {
+    font-family: Seshat;
+    font-size: 55px;
+    color: #FFFFFF;
+}
+
+.president-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-gap: 29px;
+}
+
+.image-pres-one {
+    width: 100%;
+}
+
+.president-one,
+.president-two,
+.president-three {
+    display: flex;
+    flex-direction: column;
+}
+
+.intro-pres {
+    font-family: Seshat;
+    font-size: 30px;
+    color: #FFFFFF;
+}
+
+.intro-poste {
+    font-family: Poppins;
+    font-size: 14px;
+    color: #FFFFFF;
+}
+
+.button-one {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    padding-bottom: 40px;
+}
+
+.button-pres {
+    background-color: #FFFFFF ;
+    border: none;
+    color: #2D2D2D;
+    padding: 20px 15px;
+    text-align: center;
+    text-decoration: none;
+    font-family: Seshat;
+    font-size: 20px;
+}
+
+.oval-2 {
+    position: absolute;
+    right: 161px;
+    top: 2764px;
+}
+/*  La semaine juridique */
+.juriste {
+    margin-top : 160px;
+}
+
+.titre-sem {
+    font-family: Seshat;
+    font-size: 55px;
+}
+
+.article-one,
+.article-two {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 60px;
+    align-items: center;
+}
+.article-two {
+    margin-top: 120px;
+}
+
+.image-article {
+    width: 100%;
+}
+
+.titre-article {
+    font-family: Sheshat;
+    font-size: 30px;
+    margin: 14px 0 17px 0;
+}
+
+.description-article {
+    font-family: Poppins;
+    font-size: 14px;
+    color: #8D8D8D;
+    
+}
+
+.button-article {
+    background-color: #FFB563 ;
+    border: none;
+    color: #2D2D2D;
+    padding: 20px 15px;
+    text-align: center;
+    text-decoration: none;
+    font-family: Seshat;
+    font-size: 20px; 
+    margin-top: 29px;
+}
+
+.button-two {
+    margin-top: 49px;
+}
+
+.club-juriste {
+    margin-top: 150px;
+
+}
+
+.juriste-grid {
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+
+.titre-club {
+    font-family: Seshat;
+    font-size: 55px;
+    margin:0;
+    padding-left: 44px;
+}
+
+.oval-3 {
+    margin-top: 50px;
+} 
+
+.description-juriste {
+    font-family: Poppins;
+    font-size: 14px;
+}
+
+.description-club {
+    background-color: #B3DEC1 ;
+    padding: 50px 50px 0 50px;
+}
+
+.button-three {
+    margin-top: 49px;
+    margin-bottom: 70px;
+}
+
+.button-juriste {
+    background-color: #FFFFFF ;
+    border: none;
+    color: #2D2D2D;
+    padding: 20px 15px;
+    text-align: center;
+    text-decoration: none;
+    font-family: Seshat;
+    font-size: 20px; 
+    margin-bottom: 60px;
+}
+
+/* Nos partenaires */
+
+.titre-partner {
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
+.titre-partenaire {
+    font-family: Seshat;
+    font-size: 55px;
+    margin: 0;
+}
+
+.partenaires-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    grid-gap: 30px;
+}
+
+.partenaire {
+    width: 100%;
+    padding: 40px 0 40px 0;
+    text-align: center;
+    box-shadow: 0 8px 11px -4px #d4d4d480 ;
+}
+
+.button-four {
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+.button-partenaire {
+    background-color: #FFB563 ;
+    border: none;
+    color: #2D2D2D;
+    padding: 20px 15px;
+    text-align: center;
+    text-decoration: none;
+    font-family: Seshat;
+    font-size: 20px; 
+}
+
+/* video club */
+
+.video-club{
+    margin-top: 150px;
+    background-color: #F2F2F2;
+    padding-bottom: 50px;
+}
+.titre-club-video {
+    font-family: Seshat;
+    font-size: 55px;
+    padding:70px 0 0 0;
+    margin: 0;
+}
+
+
+.video-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 30px;
+    margin-top: 50px;
+}
+
+.previous {
+    position: absolute;
+    top: 6135px;
+    left: 100px;
+}
+
+.next {
+    position: absolute;
+    top: 6135px;
+    right: 100px;
+}
+
+.video-one,
+.video-two,
+.video-three {
+    display: flex;
+    flex-direction: column;
+}
+
+.titre-video {
+    font-family: Seshat;
+    font-size: 25px;
+}
+
+/* Nous contacter  */
+
+.contact {
+    font-family: Seshat;
+    font-size: 55px;
+}
+.titre-contact {
+    font-family: Poppins;
+    font-size: 14px;
+}
+
+.attention {
+    font-family: Poppins-italic;
+    font-size: 14px;
+}
+
+.formulaire {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 50px;
+}
+
+label::after {
+    content: " * ";
+    color: #FFB563;
+}
+.Nom {
+    display: flex;
+    flex-direction: column;
+}
+
+.info {
+    font-family: Seshat;
+    font-size: 30px ;
+}
+
+.input {
+    background-color: transparent;
+    font-family: Poppins;
+    border: 0;
+    border-bottom: 1px solid #2D2D2D;
+    padding: 10px 0 5px 0;
+}
+
+.Prenom {
+    display: flex;
+    flex-direction: column;
+}
+
+.Email {
+    display: flex;
+    flex-direction: column;
+}
+
+.destinataire {
+    display: flex;
+    flex-direction: column;
+}
+
+select option[value="0"] {
+    color: #848484;
+}
+
+.message {
+    display: flex;
+    flex-direction:column ;
+    margin-top: 50px;
+}
+
+textarea  {
+    resize: none;
+}
+
+.button-five {
+    margin-top: 50px;
+}
+
+input[type=submit] {
+    background-color: #FFB563 ;
+    border: none;
+    color: #2D2D2D;
+    padding: 20px 15px;
+    text-align: center;
+    text-decoration: none;
+    font-family: Seshat;
+    font-size: 20px; 
+    cursor: pointer;
+
+}
+
+footer {
+    background-color: #F2F2F2;
+    margin-top: 100px ;
+}
+
+.footer-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+.list-item-footer {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+.list-item-footer > li {
+    font-family: Poppins;
+    font-size: 14px;
+    margin: 59px;
+}
+
+@media screen and (max-width: 810px) {
+
+    .container {
+        max-width: 29em;
+    }
+
+    .titre-actu {
+        width: 100%;
+        font-size: 25px;
+    }
+
+    .description-actu {
+        width: 100%;
+    }
+
+    .description-actu-three {
+        width: 100%;
+    }
+    .actu-one {
+        padding-top: 2em;
+    }
+
+    .actu-two {
+        grid-template-columns: 100%;
+    }
+
+    .titre-actu-two {
+        width: 100%;
+        font-size: 25px;
+    }
+
+    .description-actu-two {
+        width: 100%;
+    }
+
+    .list-item > li {
+        margin-right: 0;
+    }
+    
+    .president-honneur {
+        padding-top: 10px;
+    }
+
+    .titre-president {
+        font-size: 40px;
+    }
+
+    .president-grid {
+        grid-template-columns: 1fr 1fr ;
+    }
+
+    .juriste {
+        margin-top: 0px ;
+    }
+
+    .article-one,
+    .article-two {
+    grid-template-columns: 1fr ;
+
+    }
+
+    .juriste-grid {
+        grid-template-columns: 1fr;
+    }
+    .titre-club {
+        padding: 50px 50px 0 50px;
+        font-size: 50px;
+    }
+
+    .fond-titre {
+        background-color: #B3DEC1;
+    }
+
+    .partenaire {
+        width:auto;
+    }
+
+    .logo {
+        width: 100%;
+    }
+
+    .partenaires-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .video-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .club-one {
+        width: 100%;
+    }
+
+    .list-item-footer{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .list-item-footer > li {
+        margin: 15px;
+    }
+
+}
+
+@media screen and (max-width: 1919px) {
+    .oval-1 ,
+    .oval-2,
+    .oval-3{
+        display: none;
+    }
+
+    .next,
+    .previous {
+        display: none;
+    }
+
+}

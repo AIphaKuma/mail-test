@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="230" height="256" viewBox="0 0 230 256">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Mask" d="M0,94.215,3.345,151.63s-4.381,21.027,0,32.458,23.3,28.339,23.3,28.339,17.59,24.082,32.466,31.9S109.549,256,109.549,256l65.77-11.672L230,170.727l-9.829-48.5H199.288L142.193,59.452l8.819-19.858L71.667,0,13.918,43.114Z" fill="#d8d8d8" opacity="0"/>
+    </clipPath>
+  </defs>
+  <g id="oval-3" transform="translate(0)">
+    <g id="Oval">
+      <path id="Mask-2" data-name="Mask" d="M0,94.215,3.345,151.63s-4.381,21.027,0,32.458,23.3,28.339,23.3,28.339,17.59,24.082,32.466,31.9S109.549,256,109.549,256l65.77-11.672L230,170.727l-9.829-48.5H199.288L142.193,59.452l8.819-19.858L71.667,0,13.918,43.114Z" fill="#d8d8d8" opacity="0"/>
+      <g id="Oval-2" data-name="Oval" clip-path="url(#clip-path)">
+        <g id="Oval-3-2" data-name="Oval" transform="translate(3.345 33.179)" fill="none" stroke="#b3dec1" stroke-miterlimit="10" stroke-width="21.268">
+          <ellipse cx="109.414" cy="108.993" rx="109.414" ry="108.993" stroke="none"/>
+          <ellipse cx="109.414" cy="108.993" rx="98.779" ry="98.359" fill="none"/>
+        </g>
+      </g>
+    </g>
+    <ellipse id="Oval-4" data-name="Oval" cx="10.166" cy="10.139" rx="10.166" ry="10.139" transform="translate(197.032 73.505)" fill="#b3dec1"/>
+  </g>
+</svg>
